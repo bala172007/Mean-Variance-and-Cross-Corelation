@@ -60,6 +60,8 @@ vX2=EX2-(EX)^2;
 disp('Variance',vX2);
 
 
+
+
 ```
 #OUTPUT:
 
