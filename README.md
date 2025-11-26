@@ -81,6 +81,8 @@ Type in the second sequence = [2 1 3 5 6 3 5 9]
 
 
  #Calculation:
+ ![WhatsApp Image 2025-11-26 at 15 46 49_0546c05e](https://github.com/user-attachments/assets/669d13a6-f8e2-4f08-a896-3c23ddfad575)
+
 
 
 RESULT:
