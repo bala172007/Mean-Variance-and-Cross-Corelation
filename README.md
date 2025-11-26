@@ -1,6 +1,7 @@
 # MEAN-AND-VARIANCE-USING-SCILAB
 
 #AIM:
+
 To write a program for mean, variance and cross correlation in SCILAB and verify the output.
 
 #EQUIPMENTS Needed
@@ -40,7 +41,7 @@ To write a program for mean, variance and cross correlation in SCILAB and verify
 #PROGRAM
 ```
 function X=f(x)
-z=x*(1-x)^3;
+z=3*(1-x)^2;
 X=x*z;
 endfunction
 a=0;
@@ -49,7 +50,7 @@ EX=intg(a,b,f);
 disp('Mean:',EX) ;
 
 function X=g(x)
-z=x+3*(1-x)^2;
+z=3*(1-x)^2;
 X=x^2*z
 endfunction 
 a=0;
@@ -57,12 +58,14 @@ b=1;
 EX2=intg(a,b,g); 
 vX2=EX2-(EX)^2;
 disp('Variance',vX2);
+
+
 ```
 #OUTPUT:
 
-i) Mean of X = 0.0166667
+i) Mean of X = 0.025
  
- Mean of Y = 0.3497222
+ Mean of Y = 0.37500
 
 
 
